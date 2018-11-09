@@ -1,0 +1,66 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+h3{
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-style: Raleway;
+    color: #514A9D;
+    font-weight: bold;
+
+}
+#color-box{
+    display: flex;
+   
+    margin: auto;
+    text-align: center;
+
+}
+.box-one{
+    margin: 10px;
+    height: 200px;
+    width: 120px;
+    background: linear-gradient(#7474BF,#348AC7)
+}
+.box-one:hover{
+    background: #24C6DC;
+}
+.box-two{
+    height: 200px;
+    margin: 10px;
+    width: 120px;
+    background: linear-gradient(#DD5E89,#F7BB97)
+ 
+}
+.box-two:hover{
+    background: linear-gradient(#FF8008,#FFC837);
+}
+.box-three{
+    margin: 10px;
+    height: 200px;
+    width: 120px;
+    background: linear-gradient(#FF8008,#FFC837)
+}
+.box-three:hover{
+    background: linear-gradient(#24C6DC,#514A9D);
+}
+.box-four{
+    height: 200px;
+    margin: 10px;
+    width: 120px;
+    background: linear-gradient(#4776E6,#8E54E9)
+}
+.box-four:hover{
+    background: linear-gradient(#DD5E89,#F7BB97)
+}
+.box-five{
+    height: 200px;
+    margin: 10px;
+    width: 120px;
+    background: linear-gradient(#24C6DC,#514A9D)
+}
+.box-five:hover{
+    background: linear-gradient(#4776E6,#8E54E9)
+}
